@@ -13,8 +13,9 @@ int main(){
 	
 	for (int i = 2; numero >= i; i++){ // Interamos el numero ingresado entre todos los numeros naturales que sean menor o igual a este
 		
-		while (numero % i == 0){ // identificamos el numero primo que sea divisible con resultado 0	
-		
+		while (numero % i == 0){ // identificamos el numero primo que sea divisible con resultado 0
+			
+			printf("%d, i"); //Imprimimos el numero primo		
 			numero /= i; //Dividimos el numero ingresado entre el numero primo divisible
 			
 			if(numero != 1){ //si el resultado final es diferente de 0, agregamos el * para indicar multiplo (solo para estetica del programa)
