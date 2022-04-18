@@ -15,7 +15,7 @@ int main(){
 		
 		while (numero % i == 0){ // identificamos el numero primo que sea divisible con resultado 0
 			
-			printf("%d, i"); //Imprimimos el numero primo		
+			printf("%d", i); //Imprimimos el numero primo		
 			numero /= i; //Dividimos el numero ingresado entre el numero primo divisible
 			
 			if(numero != 1){ //si el resultado final es diferente de 0, agregamos el * para indicar multiplo (solo para estetica del programa)
